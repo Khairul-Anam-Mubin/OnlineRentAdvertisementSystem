@@ -9,76 +9,76 @@
     <link rel="stylesheet" href="asset/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/css/style.css">
-    </head>
+</head>
 <body>
 <!--start navbar-->
 <header>
-        <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
-            <div class="container">
-                <a href="" class="navbar-brand">
-                    <img src="asset/img/logo.png">
-                </a>
-                <!--make button... use navbar-toggler for button into information-->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#manu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--id use for transfer infromation-->
-                <div class="collapse navbar-collapse" id="manu">
-                    <ul class="navbar-nav">
-                        <li><a href="" class="nav-link">Home</a></li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
-                            <ul class="dropdown-menu">
-                                <!--sub manu-->
-                                <li><a href="" class="dropdown-item"> Flat</a> </li>
-                                <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                                <li><a href="" class="dropdown-item"> Hostel</a> </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Ground Floor</a>
-                            <ul class="dropdown-menu">
-                                <!--sub manu-->
-                                <li><a href="" class="dropdown-item"> Shop</a> </li>
-                                <li><a href="" class="dropdown-item"> Garage</a> </li>
-                                <li><a href="" class="dropdown-item"> Car Parking</a> </li>
-                                <li><a href="" class="dropdown-item"> Store House</a> </li>
+    <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="asset/img/logo.png">
+            </a>
+            <!--make button... use navbar-toggler for button into information-->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#manu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--id use for transfer infromation-->
+            <div class="collapse navbar-collapse" id="manu">
+                <ul class="navbar-nav">
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
+                        <ul class="dropdown-menu">
+                            <!--sub manu-->
+                            <li><a href="" class="dropdown-item"> Flat</a> </li>
+                            <li><a href="" class="dropdown-item"> Sublet</a> </li>
+                            <li><a href="" class="dropdown-item"> Hostel</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Ground Floor</a>
+                        <ul class="dropdown-menu">
+                            <!--sub manu-->
+                            <li><a href="" class="dropdown-item"> Shop</a> </li>
+                            <li><a href="" class="dropdown-item"> Garage</a> </li>
+                            <li><a href="" class="dropdown-item"> Car Parking</a> </li>
+                            <li><a href="" class="dropdown-item"> Store House</a> </li>
 
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Commercial Property</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Party Center</a> </li>
-                                <li><a href="" class="dropdown-item"> Conference Room</a> </li>
-                                <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
-                                <li><a href="" class="dropdown-item"> Community Center</a> </li>
-                                <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Commercial Property</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item"> Party Center</a> </li>
+                            <li><a href="" class="dropdown-item"> Conference Room</a> </li>
+                            <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
+                            <li><a href="" class="dropdown-item"> Community Center</a> </li>
+                            <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
 
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Bus</a> </li>
-                                <li><a href="" class="dropdown-item"> Car</a> </li>
-                                <li><a href="" class="dropdown-item"> Bike</a> </li>
-                                <li><a href="" class="dropdown-item"> Truck</a> </li>
-                                <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Clothes</a> </li>
-                                <li><a href="" class="dropdown-item"> Ornaments</a> </li>
-                                <li><a href="" class="dropdown-item"> Others</a> </li>
-                            </ul>
-                        </li>
-                        <li><a href="" class="nav-link">Others</a></li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="#login" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Login</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
-                        <li><a href="Registration.php" class="nav-link">Registration</a></li>
-                    </ul>
-                </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item"> Bus</a> </li>
+                            <li><a href="" class="dropdown-item"> Car</a> </li>
+                            <li><a href="" class="dropdown-item"> Bike</a> </li>
+                            <li><a href="" class="dropdown-item"> Truck</a> </li>
+                            <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item"> Clothes</a> </li>
+                            <li><a href="" class="dropdown-item"> Ornaments</a> </li>
+                            <li><a href="" class="dropdown-item"> Others</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Others</a></li>
+                    <li><a href="Advertises.php" class="nav-link">Advertises</a></li>
+                </ul>
+                <ul class="navbar-nav ml-auto"
+                    <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Contact Paper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
+                    <li><a href="User.php" class="nav-link">Name</a></li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 </header>
 
 <!--end navbar-->
@@ -135,7 +135,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-               <h2 class="text-center" style="color: white">Latest Upload Rent Available</h2>
+                <h2 class="text-center" style="color: white">Latest Upload Rent Available</h2>
                 <!--<p class="md-4">
                     <span class="text-center border-bottom" style="border-bottom: 5px dotted red;font-size: 35px">
                         Rent Available Find Your Own
@@ -155,7 +155,7 @@
                         <form action="">
                             <a href="" class="btn btn-success">Show Details....</a>
                             <a href="" class="btn btn-dark">Taka 20000/month</a>
-                         </form>
+                        </form>
                         <!--<button class="btn" id="apply"><i class="fa fa-envelope"></i>sahrialalam@gmail.com</button>-->
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                         <!--<button class="btn" id="apply"><i class="fa fa-envelope"></i>sahrialalam@gmail.com</button>-->
                     </div>
                 </div>
-        </div>
+            </div>
             <div class="col-md-4">
                 <div class="card rounded-0"><!--rounded-0 for desing-->
                     <div class="card-header">
@@ -196,7 +196,7 @@
                         <!--<button class="btn" id="apply"><i class="fa fa-envelope"></i>sahrialalam@gmail.com</button>-->
                     </div>
                 </div>
-    </div>
+            </div>
 </section>
 <!--for animation small small al product use plugin-->
 <section class="bg-dark">
@@ -223,9 +223,9 @@
                                 <a href="" class="btn btn-outline-success">Show Details....</a>
                                 <a href="" class="btn btn-outline-dark">Taka 15000/month</a>
                             </div>
-                         </div>
+                        </div>
 
-                     </div>
+                    </div>
                     <div class="item">
                         <div class="card">
                             <div class="card-header">
@@ -366,14 +366,14 @@
                         </div>
 
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <!--modal use for click...modal fade use for show into click -->
-<div class="modal fade" id="login">
+<div class="modal fade" id="ContactPaper">
     <div class="modal-dialog modal-lg"><!--modal size manual-->
         <div class="modal-content">
             <div class="modal-header">
@@ -381,34 +381,54 @@
                     <img src="asset/img/logo.png"
                          alt="Avatar" class="avatar">
                 </div>
-                <h2>Login Form</h2>
+                <h2>Contact Paper</h2>
                 <!--Step 1 : Adding HTML-->
-                    <button type="button" class="close" data-dismiss="modal">x</button>
+                <button type="button" class="close" data-dismiss="modal">x</button>
             </div>
             <div class="modal-body">
-                <form action="">
-                    <div class="container">
-                        <label><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="U_name"required>
-                        <br/>
-                        <br/>
-                        <label><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="U_pass"required>
-                        <br/>
-                        <br/>
-                        <button type="submit"name="btn" class="btn btn-outline-success" value="Log IN">Login</button>
-                        <input type="checkbox" checked="checked"> Remember me
-                </form>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label class="col-form-label">User Name</label>
+                            <input type="text" name="U_name" class="form-control" required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">User Id</label>
+                            <input type="text" name="U_id" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Lesse_Name</label>
+                            <input type="text" name="L_name" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Lesse_Nid_Image</label>
+                            <input type="file" name="L_nid_image" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Add Lesse_Id</label>
+                            <input type="text" name="L_id" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Rent Amount</label>
+                            <input type="number" name="R_amount" class="form-control"required/>
+                        </div>
 
-            </div>
-            <div class="modal-footer">
-                <form action=""
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="bg-danger">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                    </div>
-                </form>
+                        <div class="form-group">
+                            <label class="col-form-label"> Address</label>
+                            <input type="text" name="U_address" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Contact Date</label>
+                            <input type="date" name="C_date" class="form-control"required/>
+                        </div>
 
+                        <div class="form-group">
+                            <label class="col-form-label"></label>
+                            <input type="submit" name="btn" class="btn btn-outline-success" value="Make Aggrement"/>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -472,7 +492,7 @@
     </section> <!--  end .footer-widget-area  -->
 
     <!--FOOTER CONTENT  -->
-<!--  end .footer-content  -->
+    <!--  end .footer-content  -->
 
 </footer>
 
@@ -496,7 +516,7 @@
             responsive: {
                 0: {
                     items: 1,
-                   <!-- nav: true-->
+                    <!-- nav: true-->
                 },
                 600: {
                     items: 3,
