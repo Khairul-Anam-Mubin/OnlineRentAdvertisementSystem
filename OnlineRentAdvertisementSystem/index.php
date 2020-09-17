@@ -9,78 +9,75 @@
     <link rel="stylesheet" href="asset/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/css/style.css">
-    </head>
+</head>
 <body>
-<!--start navbar-->
-<header>
-        <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
-            <div class="container">
-                <a href="" class="navbar-brand">
-                    <img src="asset/img/logo.png">
-                </a>
-                <!--make button... use navbar-toggler for button into information-->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#manu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--id use for transfer infromation-->
-                <div class="collapse navbar-collapse" id="manu">
-                    <ul class="navbar-nav">
-                        <li><a href="" class="nav-link">Home</a></li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
-                            <ul class="dropdown-menu">
-                                <!--sub manu-->
-                                <li><a href="" class="dropdown-item"> Flat</a> </li>
-                                <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                                <li><a href="" class="dropdown-item"> Hostel</a> </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Ground Floor</a>
-                            <ul class="dropdown-menu">
-                                <!--sub manu-->
-                                <li><a href="" class="dropdown-item"> Shop</a> </li>
-                                <li><a href="" class="dropdown-item"> Garage</a> </li>
-                                <li><a href="" class="dropdown-item"> Car Parking</a> </li>
-                                <li><a href="" class="dropdown-item"> Store House</a> </li>
-
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Commercial Property</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Party Center</a> </li>
-                                <li><a href="" class="dropdown-item"> Conference Room</a> </li>
-                                <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
-                                <li><a href="" class="dropdown-item"> Community Center</a> </li>
-                                <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
-
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Bus</a> </li>
-                                <li><a href="" class="dropdown-item"> Car</a> </li>
-                                <li><a href="" class="dropdown-item"> Bike</a> </li>
-                                <li><a href="" class="dropdown-item"> Truck</a> </li>
-                                <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item"> Clothes</a> </li>
-                                <li><a href="" class="dropdown-item"> Ornaments</a> </li>
-                                <li><a href="" class="dropdown-item"> Others</a> </li>
-                            </ul>
-                        </li>
-                        <li><a href="" class="nav-link">Others</a></li>
+<!--start navbar use fixed top-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="asset/img/logo.png">
+        </a>
+        <!--make button... use navbar-toggler for button into information-->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#manu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--id use for transfer infromation-->
+        <div class="collapse navbar-collapse" id="manu">
+            <ul class="navbar-nav">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">HomeRent</a>
+                    <ul class="dropdown-menu">
+                        <!--sub manu-->
+                        <li><a href="" class="dropdown-item"> Flat</a> </li>
+                        <li><a href="" class="dropdown-item"> Sublet</a> </li>
+                        <li><a href="" class="dropdown-item"> Hostel</a> </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="#login" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Login</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
-                        <li><a href="Registration.php" class="nav-link">Registration</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-</header>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
+                    <ul class="dropdown-menu">
+                        <!--sub manu-->
+                        <li><a href="" class="dropdown-item"> Shop</a> </li>
+                        <li><a href="" class="dropdown-item"> Garage</a> </li>
+                        <li><a href="" class="dropdown-item"> Car Parking</a> </li>
+                        <li><a href="" class="dropdown-item"> Store House</a> </li>
 
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CommercialProperty</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Party Center</a> </li>
+                        <li><a href="" class="dropdown-item"> Conference Room</a> </li>
+                        <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
+                        <li><a href="" class="dropdown-item"> Community Center</a> </li>
+                        <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Bus</a> </li>
+                        <li><a href="" class="dropdown-item"> Car</a> </li>
+                        <li><a href="" class="dropdown-item"> Bike</a> </li>
+                        <li><a href="" class="dropdown-item"> Truck</a> </li>
+                        <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Clothes</a> </li>
+                        <li><a href="" class="dropdown-item"> Ornaments</a> </li>
+                        <li><a href="" class="dropdown-item"> Others</a> </li>
+                    </ul>
+                </li>
+                <li><a href="" class="nav-link">Others</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li><a href="#login" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Login</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
+                <li><a href="Registration.php" class="nav-link">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <!--end navbar-->
 
 <div class="carousel slide" data-ride="carousel" data-interval="1800" id="slider"><!--data-interval="1000" use time duration-->
@@ -130,6 +127,7 @@
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 </section>
+
 
 <section class="py-5 bg-dark"><!---->
     <div class="container">
@@ -414,7 +412,6 @@
     </div>
 </div>
 
-<!--footer-->
 <footer>
     <section class="footer-widget-area footer-widget-area-bg bg-dark">
         <div class="container-fluid text-center ">
@@ -472,7 +469,7 @@
     </section> <!--  end .footer-widget-area  -->
 
     <!--FOOTER CONTENT  -->
-<!--  end .footer-content  -->
+    <!--  end .footer-content  -->
 
 </footer>
 

@@ -13,7 +13,7 @@
 <body>
 <!--start navbar-->
 <header>
-    <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container">
             <a href="" class="navbar-brand">
                 <img src="asset/img/logo.png">
@@ -73,8 +73,8 @@
                     <li><a href="Advertises.php" class="nav-link">Advertises</a></li>
                 </ul>
                 <ul class="navbar-nav ml-auto"
-                    <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Contact Paper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
-                    <li><a href="User.php" class="nav-link">Name</a></li>
+                <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Contact Paper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
+                <li><a href="User.php" class="nav-link">Name</a></li>
                 </ul>
             </div>
         </div>
