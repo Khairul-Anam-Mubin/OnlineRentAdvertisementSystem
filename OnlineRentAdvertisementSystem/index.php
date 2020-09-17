@@ -384,18 +384,36 @@
                     <button type="button" class="close" data-dismiss="modal">x</button>
             </div>
             <div class="modal-body">
-                <form action="">
+                <form action="" method="post" enctype="multipart/form-data">
                     <div class="container">
-                        <label><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="U_name"required>
+                        <label><b>Phone</b></label>
+                        <input type="text" placeholder="Enter Number" name="phone"required>
                         <br/>
                         <br/>
                         <label><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="U_pass"required>
+                        <input type="password" placeholder="Enter Password" name="password"required>
                         <br/>
                         <br/>
-                        <button type="submit"name="btn" class="btn btn-outline-success" value="Log IN">Login</button>
+                        <button type="submit" name="login" class="btn btn-outline-success" value="Log IN">Login</button>
                         <input type="checkbox" checked="checked"> Remember me
+                    </div>
+                    <?php 
+                        include 'dbcon.php'; 
+                        if(isset($_POST['login'])) {
+                            $phone = $_POST['phone'];
+                            $password = $_POST['password'];
+                            $phone_query = "Select * from users where phone = '$phone' and password_hash = '$password'";
+                            $query = mysqli_query($connect , $phone_query);
+                            if (mysqli_num_rows($query) > 0) {           
+                                echo '<meta http-equiv="refresh" content="1; URL=User.php" />';
+                                
+                            } else {
+                                echo '
+                                    <script>alert("Incorrect Phone or Password")</script>
+                                ';
+                            }
+                        }  
+                     ?>
                 </form>
 
             </div>
