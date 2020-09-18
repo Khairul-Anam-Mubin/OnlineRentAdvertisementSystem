@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
+
+
+
 <!--start navbar use fixed top-->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
@@ -93,6 +96,7 @@
             <div class="carousel-caption">
                 <h3>Take Rent by One Click</h3>
                 <a href="" class="btn btn-success">Show Details....</a>
+                <button onclick="myFunction()" class="btn btn-warning">Create Advertising</button>
             </div>
         </div>
         <div class="carousel-item">
@@ -100,6 +104,7 @@
             <div class="carousel-caption">
                 <h3>Take Rent by One Click</h3>
                 <a href="" class="btn btn-success">Show Details....</a>
+                <button onclick="myFunction()" class="btn btn-warning">Create Advertising</button>
             </div>
         </div>
         <div class="carousel-item">
@@ -107,6 +112,7 @@
             <div class="carousel-caption">
                 <h3>Take Rent by One Click</h3>
                 <a href="" class="btn btn-success">Show Details....</a>
+                <button onclick="myFunction()" class="btn btn-warning">Create Advertising</button>
             </div>
         </div>
     </div>
@@ -402,7 +408,8 @@
                         if(isset($_POST['login'])) {
                             $phone = $_POST['phone'];
                             $password = $_POST['password'];
-                            $phone_query = "Select * from users where phone = '$phone' and password_hash = '$password'";
+                            $pass1 = md5($password);
+                            $phone_query = "Select * from users where phone = '$phone' and password_hash = '$pass1'";
                             $query = mysqli_query($connect , $phone_query);
                             if (mysqli_num_rows($query) > 0) {           
                                 echo '<meta http-equiv="refresh" content="1; URL=User.php" />';
@@ -496,6 +503,12 @@
 <script src="asset/js/owl.carousel.js"></script>
 <script src="asset/js/bootstrap.bundle.js"></script>
 <script src="asset/js/bootstrap.js"></script>
+<!--for alert in advertise-->>
+<script>
+    function myFunction() {
+        alert("Registration First !!!!!");
+    }
+</script>
 <!--plugin intialization-->
 <script>
     $(document).ready(function() {
