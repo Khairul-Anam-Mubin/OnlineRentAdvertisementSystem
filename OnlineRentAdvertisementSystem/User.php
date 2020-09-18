@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-<!--start navbar-->
+
+<!--  HEADER -->
 <header>
+<!--start navbar-->
+
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container">
             <a href="" class="navbar-brand">
@@ -33,7 +36,7 @@
                             <li><a href="" class="dropdown-item"> Hostel</a> </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Ground Floor</a>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
                         <ul class="dropdown-menu">
                             <!--sub manu-->
                             <li><a href="" class="dropdown-item"> Shop</a> </li>
@@ -43,7 +46,7 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Commercial Property</a>
+                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CommercialProperty</a>
                         <ul class="dropdown-menu">
                             <li><a href="" class="dropdown-item"> Party Center</a> </li>
                             <li><a href="" class="dropdown-item"> Conference Room</a> </li>
@@ -70,12 +73,16 @@
                         </ul>
                     </li>
                     <li><a href="" class="nav-link">Others</a></li>
-                    <li><a href="Advertises.php" class="nav-link">Advertises</a></li>
+                    <li><a href="Advertises.php" class="nav-link">Create Ads</a></li>
                 </ul>
                 <ul class="navbar-nav ml-auto"
-                <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Contact Paper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
-                <li><a href="User.php" class="nav-link">Name</a></li>
-                </ul>
+                <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">ContactPaper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Name</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Profile</a> </li>
+                        <li><a href="index.php" class="dropdown-item"> Logout</a> </li>
+                    </ul>
+                </li>
             </div>
         </div>
     </nav>
