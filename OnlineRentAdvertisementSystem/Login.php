@@ -47,7 +47,8 @@
                         if(isset($_POST['login'])) {
                             $phone = $_POST['phone'];
                             $password = $_POST['password'];
-                            $phone_query = "Select * from users where phone = '$phone' and password_hash = '$password'";
+                            $password_hash = md5($password);
+                            $phone_query = "Select * from users where phone = '$phone' and password_hash = '$password_hash'";
                             $query = mysqli_query($connect , $phone_query);
                             if (mysqli_num_rows($query) > 0) {           
                                 echo '<meta http-equiv="refresh" content="1; URL=User.php" />';
