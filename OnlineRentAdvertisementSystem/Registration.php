@@ -11,9 +11,9 @@
     $password = $_POST['password'];
     $cpassword = $_POST['cpassword'];
     $create_date = date("Y-m-d",time());
-    //$pass1 = password_hash($password, PASSWORD_DEFAULT); 
-    //$pass2 =  password_hash($cpassword, PASSWORD_DEFAULT); 
-    $password_hash = $password;
+    //$pass1 = md5($password); 
+    //$pass2 =  md5($cpassword); 
+    $password_hash = md5($password);
     $phone_query = "Select * from users where phone = '$phone'";
     $query = mysqli_query($connect , $phone_query);
     if (mysqli_num_rows($query) > 0) {
