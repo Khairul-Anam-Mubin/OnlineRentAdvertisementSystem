@@ -22,7 +22,13 @@
 
     </div>
 </nav>
-<div class="jumbotron">
+<section class="py-3 bg-warning">
+    <div class="container text-center">
+        <h1 style="color: red">Payment first !!!!!!</h1>
+        <a href="PaymentProcess.php"><h5 style="color: blue">Click here to show payment process</h5></a>
+    </div>
+</section>
+<div class="jumbotron bg-secondary">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
@@ -78,6 +84,12 @@
                                 <label class="col-form-label"> Phone Number</label>
                                 <input type="number" name="U_phone" class="form-control"required/>
                             </div>
+
+                            <div class="form-group">
+                                <label class="col-form-label"> Trx Id (Bkash)</label>
+                                <input type="number" name="Trx_id" class="form-control"required/>
+                            </div>
+
                             <div class="form-group">
                                 <label class="col-form-label">Image1</label>
                                 <input type="file" name="U_input_image1" class="form-control"required/>
