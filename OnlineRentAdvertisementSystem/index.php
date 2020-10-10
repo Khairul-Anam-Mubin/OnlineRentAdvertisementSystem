@@ -31,9 +31,9 @@
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">HomeRent</a>
                     <ul class="dropdown-menu">
                         <!--sub manu-->
-                        <li><a href="" class="dropdown-item"> Flat</a> </li>
-                        <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                        <li><a href="" class="dropdown-item"> Hostel</a> </li>
+                        <li><a href="flatForVisitor.php" class="dropdown-item"> Flat</a> </li>
+                        <li><a href="subletForVisitor.php" class="dropdown-item"> Sublet</a> </li>
+                        <li><a href="hostelForVisitor.php" class="dropdown-item"> Hostel</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="card-footer">
                         <form action="">
-                            <a href="" class="btn btn-success">Show Details....</a>
+                            <a href="ProductForVisitor.php" class="btn btn-success">Show Details....</a>
                             <a href="" class="btn btn-dark">Taka 20000/month</a>
                          </form>
                         <!--<button class="btn" id="apply"><i class="fa fa-envelope"></i>sahrialalam@gmail.com</button>-->
