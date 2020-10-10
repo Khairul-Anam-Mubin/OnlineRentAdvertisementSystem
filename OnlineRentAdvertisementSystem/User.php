@@ -31,9 +31,9 @@
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
                         <ul class="dropdown-menu">
                             <!--sub manu-->
-                            <li><a href="" class="dropdown-item"> Flat</a> </li>
-                            <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                            <li><a href="" class="dropdown-item"> Hostel</a> </li>
+                            <li><a href="flat.php" class="dropdown-item"> Flat</a> </li>
+                             <li><a href="sublet.php" class="dropdown-item"> Sublet</a> </li>
+                            <li><a href="hostel.php" class="dropdown-item"> Hostel</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
@@ -79,7 +79,7 @@
                 <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">ContactPaper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Name</a>
                     <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item"> Profile</a> </li>
+                        <li><a href="Profile.php" class="dropdown-item"> Profile</a> </li>
                         <li><a href="index.php" class="dropdown-item"> Logout</a> </li>
                     </ul>
                 </li>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="card-footer">
                         <form action="">
-                            <a href="" class="btn btn-success">Show Details....</a>
+                            <a href="Product.php" class="btn btn-success">Show Details....</a>
                             <a href="" class="btn btn-dark">Taka 20000/month</a>
                         </form>
                         <!--<button class="btn" id="apply"><i class="fa fa-envelope"></i>sahrialalam@gmail.com</button>-->
@@ -205,6 +205,8 @@
                 </div>
             </div>
 </section>
+
+
 <!--for animation small small al product use plugin-->
 <section class="bg-dark">
     <div class="container">
