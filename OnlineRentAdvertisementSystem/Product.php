@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Home</title>
+    <title>Product</title>
     <link rel="stylesheet" href="asset/css/bootstrap.css"/>
     <link rel="stylesheet" href="asset/css/owl.carousel.min.css"/>
     <link rel="stylesheet" href="asset/css/owl.theme.default.min.css"/>
@@ -125,9 +125,9 @@
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
                         <ul class="dropdown-menu">
                             <!--sub manu-->
-                            <li><a href="" class="dropdown-item"> Flat</a> </li>
-                            <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                            <li><a href="" class="dropdown-item"> Hostel</a> </li>
+                            <li><a href="flat.php" class="dropdown-item"> Flat</a> </li>
+                            <li><a href="hostel.php" class="dropdown-item"> Sublet</a> </li>
+                            <li><a href="sublet.php" class="dropdown-item"> Hostel</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
@@ -173,7 +173,8 @@
                 <li><a href="#ContactPaper" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">ContactPaper</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Name</a>
                     <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item"> Profile</a> </li>
+                        <li><a href="Profile.php" class="dropdown-item"> Profile</a> </li>
+                        <li><a href="User.php" class="dropdown-item"> Home</a> </li>
                         <li><a href="index.php" class="dropdown-item"> Logout</a> </li>
                     </ul>
                 </li>
@@ -366,6 +367,68 @@
             </div>
 </section>
 
+<!--modal use for click...modal fade use for show into click -->
+<div class="modal fade" id="ContactPaper">
+    <div class="modal-dialog modal-lg"><!--modal size manual-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="imgcontainer">
+                    <img src="asset/img/logo.png"
+                         alt="Avatar" class="avatar">
+                </div>
+                <h2>Contact Paper</h2>
+                <!--Step 1 : Adding HTML-->
+                <button type="button" class="close" data-dismiss="modal">x</button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label class="col-form-label">User Name</label>
+                            <input type="text" name="U_name" class="form-control" required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">User Id</label>
+                            <input type="text" name="U_id" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Lesse_Name</label>
+                            <input type="text" name="L_name" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Lesse_Nid_Image</label>
+                            <input type="file" name="L_nid_image" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Add Lesse_Id</label>
+                            <input type="text" name="L_id" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Rent Amount</label>
+                            <input type="number" name="R_amount" class="form-control"required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-form-label"> Address</label>
+                            <input type="text" name="U_address" class="form-control"required/>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"> Contact Date</label>
+                            <input type="date" name="C_date" class="form-control"required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-form-label"></label>
+                            <input type="submit" name="btn" class="btn btn-outline-success" value="Make Aggrement"/>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="footer-widget-area footer-widget-area-bg bg-dark">
     <div class="container-fluid text-center ">
         <div class="row">
@@ -426,6 +489,10 @@
 
 </footer>
 
+<script src="asset/js/jquery-3.5.1.js"></script>
+<script src="asset/js/owl.carousel.js"></script>
+<script src="asset/js/bootstrap.bundle.js"></script>
+<script src="asset/js/bootstrap.js"></script>
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
