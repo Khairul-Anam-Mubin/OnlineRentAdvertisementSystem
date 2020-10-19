@@ -31,44 +31,44 @@
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Home Rent</a>
                         <ul class="dropdown-menu">
                             <!--sub manu-->
-                            <li><a href="" class="dropdown-item"> Flat</a> </li>
-                            <li><a href="" class="dropdown-item"> Sublet</a> </li>
-                            <li><a href="" class="dropdown-item"> Hostel</a> </li>
+                            <li><a href="flat.php" class="dropdown-item"> Flat</a> </li>
+                            <li><a href="sublet.php" class="dropdown-item"> Sublet</a> </li>
+                            <li><a href="hostel.php" class="dropdown-item"> Hostel</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
                         <ul class="dropdown-menu">
                             <!--sub manu-->
-                            <li><a href="" class="dropdown-item"> Shop</a> </li>
-                            <li><a href="" class="dropdown-item"> Garage</a> </li>
-                            <li><a href="" class="dropdown-item"> Car Parking</a> </li>
-                            <li><a href="" class="dropdown-item"> Store House</a> </li>
+                            <li><a href="shop.php" class="dropdown-item"> Shop</a> </li>
+                            <li><a href="garage.php" class="dropdown-item"> Garage</a> </li>
+                            <li><a href="carparking.php" class="dropdown-item"> Car Parking</a> </li>
+                            <li><a href="storehouse.php" class="dropdown-item"> Store House</a> </li>
 
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CommercialProperty</a>
                         <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item"> Party Center</a> </li>
-                            <li><a href="" class="dropdown-item"> Conference Room</a> </li>
-                            <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
-                            <li><a href="" class="dropdown-item"> Community Center</a> </li>
-                            <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
+                            <li><a href="partycenter.php" class="dropdown-item"> Party Center</a> </li>
+                            <li><a href="conferenceroom.php" class="dropdown-item"> Conference Room</a> </li>
+                            <li><a href="conventionhall.php" class="dropdown-item"> Conventional Hall</a> </li>
+                            <li><a href="conventionhall.php" class="dropdown-item"> Community Center</a> </li>
+                            <li><a href="restaurantcenter.php" class="dropdown-item"> Restaurant Center</a> </li>
 
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
                         <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item"> Bus</a> </li>
-                            <li><a href="" class="dropdown-item"> Car</a> </li>
-                            <li><a href="" class="dropdown-item"> Bike</a> </li>
-                            <li><a href="" class="dropdown-item"> Truck</a> </li>
-                            <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
+                            <li><a href="bus.php" class="dropdown-item"> Bus</a> </li>
+                            <li><a href="car.php" class="dropdown-item"> Car</a> </li>
+                            <li><a href="bike.php" class="dropdown-item"> Bike</a> </li>
+                            <li><a href="truck.php" class="dropdown-item"> Truck</a> </li>
+                            <li><a href="minitruck.php" class="dropdown-item"> Mini Truck</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
                         <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item"> Clothes</a> </li>
-                            <li><a href="" class="dropdown-item"> Ornaments</a> </li>
+                            <li><a href="cloth.php" class="dropdown-item"> Clothes</a> </li>
+                            <li><a href="ornament.php" class="dropdown-item"> Ornaments</a> </li>
                             <li><a href="" class="dropdown-item"> Others</a> </li>
                         </ul>
                     </li>
