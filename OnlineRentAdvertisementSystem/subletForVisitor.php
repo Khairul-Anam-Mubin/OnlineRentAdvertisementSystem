@@ -13,6 +13,7 @@
 <body>
 
 
+
 <!--start navbar use fixed top-->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
@@ -38,36 +39,36 @@
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
                     <ul class="dropdown-menu">
                         <!--sub manu-->
-                        <li><a href="" class="dropdown-item"> Shop</a> </li>
-                        <li><a href="" class="dropdown-item"> Garage</a> </li>
-                        <li><a href="" class="dropdown-item"> Car Parking</a> </li>
-                        <li><a href="" class="dropdown-item"> Store House</a> </li>
+                        <li><a href="ShopForVisitor.php" class="dropdown-item"> Shop</a> </li>
+                        <li><a href="garageForVisitor.php" class="dropdown-item"> Garage</a> </li>
+                        <li><a href="carparkingForVisitor.php" class="dropdown-item"> Car Parking</a> </li>
+                        <li><a href="subletForVisitor.php" class="dropdown-item"> Store House</a> </li>
 
                     </ul>
                 </li>
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CommercialProperty</a>
                     <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item"> Party Center</a> </li>
-                        <li><a href="" class="dropdown-item"> Conference Room</a> </li>
-                        <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
-                        <li><a href="" class="dropdown-item"> Community Center</a> </li>
-                        <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
+                        <li><a href="partycenterForVisitor.php" class="dropdown-item"> Party Center</a> </li>
+                        <li><a href="conferenceroomForVisitor.php" class="dropdown-item"> Conference Room</a> </li>
+                        <li><a href="ConventionhallForVisitor.php" class="dropdown-item"> Conventional Hall</a> </li>
+                        <li><a href="ConventionhallForVisitor.php" class="dropdown-item"> Community Center</a> </li>
+                        <li><a href="restaurantcenterForVisitor.php" class="dropdown-item"> Restaurant Center</a> </li>
 
                     </ul>
                 </li>
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
                     <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item"> Bus</a> </li>
-                        <li><a href="" class="dropdown-item"> Car</a> </li>
-                        <li><a href="" class="dropdown-item"> Bike</a> </li>
-                        <li><a href="" class="dropdown-item"> Truck</a> </li>
-                        <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
+                        <li><a href="bikeForVisitor.php" class="dropdown-item"> Bus</a> </li>
+                        <li><a href="carForVisitor.php" class="dropdown-item"> Car</a> </li>
+                        <li><a href="bikeForVisitor.php" class="dropdown-item"> Bike</a> </li>
+                        <li><a href="truckForVisitor.php" class="dropdown-item"> Truck</a> </li>
+                        <li><a href="MinitruckForVisitor.php" class="dropdown-item"> Mini Truck</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
                     <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item"> Clothes</a> </li>
-                        <li><a href="" class="dropdown-item"> Ornaments</a> </li>
+                        <li><a href="clothForVisitor.php" class="dropdown-item"> Clothes</a> </li>
+                        <li><a href="OrnamentForVisitor.php" class="dropdown-item"> Ornaments</a> </li>
                         <li><a href="" class="dropdown-item"> Others</a> </li>
                     </ul>
                 </li>
@@ -81,7 +82,6 @@
     </div>
 </nav>
 <!--end navbar-->
-
 
 <section class="py-1 bg-dark"><!---->
     <form class="example" action="index.php" style="margin:auto;max-width:800px">
