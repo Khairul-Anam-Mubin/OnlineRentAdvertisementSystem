@@ -48,19 +48,70 @@
              
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
         <a href="" class="navbar-brand">
             <img src="asset/img/logo.png">
         </a>
-
+        <!--make button... use navbar-toggler for button into information-->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#manu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--id use for transfer infromation-->
+        <div class="collapse navbar-collapse" id="manu">
             <ul class="navbar-nav">
-                <li><a href="index.php" class="nav-link">Home</a> </li>
-                <li><a href="Registration.php" class="nav-link">Registration</a> </li>
-                <li><a href="login.php" class="nav-link">Log In</a> </li>
+                <li><a href="" class="nav-link">Home</a></li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">HomeRent</a>
+                    <ul class="dropdown-menu">
+                        <!--sub manu-->
+                        <li><a href="flatForVisitor.php" class="dropdown-item"> Flat</a> </li>
+                        <li><a href="subletForVisitor.php" class="dropdown-item"> Sublet</a> </li>
+                        <li><a href="hostelForVisitor.php" class="dropdown-item"> Hostel</a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GroundFloor</a>
+                    <ul class="dropdown-menu">
+                        <!--sub manu-->
+                        <li><a href="" class="dropdown-item"> Shop</a> </li>
+                        <li><a href="" class="dropdown-item"> Garage</a> </li>
+                        <li><a href="" class="dropdown-item"> Car Parking</a> </li>
+                        <li><a href="" class="dropdown-item"> Store House</a> </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CommercialProperty</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Party Center</a> </li>
+                        <li><a href="" class="dropdown-item"> Conference Room</a> </li>
+                        <li><a href="" class="dropdown-item"> Conventional Hall</a> </li>
+                        <li><a href="" class="dropdown-item"> Community Center</a> </li>
+                        <li><a href="" class="dropdown-item"> Restaurant Center</a> </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Transportation</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Bus</a> </li>
+                        <li><a href="" class="dropdown-item"> Car</a> </li>
+                        <li><a href="" class="dropdown-item"> Bike</a> </li>
+                        <li><a href="" class="dropdown-item"> Truck</a> </li>
+                        <li><a href="" class="dropdown-item"> Mini Truck</a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Decoration</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Clothes</a> </li>
+                        <li><a href="" class="dropdown-item"> Ornaments</a> </li>
+                        <li><a href="" class="dropdown-item"> Others</a> </li>
+                    </ul>
+                </li>
+                <li><a href="" class="nav-link">Others</a></li>
             </ul>
-
-
+            <ul class="navbar-nav ml-auto">
+                <li><a href="#login" class="nav-link" data-toggle="modal" data-keyboard="false" data-backdrop="static">Login</a></li><!--data-keyboard="false" data-backdrop="static" use for page cannot move from home page-->
+                <li><a href="Registration.php" class="nav-link">Registration</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 <div class="jumbotron">
@@ -117,7 +168,9 @@
         </div>
     </div>
 </div>
-<script src="asset/js/bootstrap.bundle.js"></script>;
-<script src="asset/js/bootstrap.js"></script>;
+<script src="asset/js/jquery-3.5.1.js"></script>
+<script src="asset/js/owl.carousel.js"></script>
+<script src="asset/js/bootstrap.bundle.js"></script>
+<script src="asset/js/bootstrap.js"></script>
 </body>
 </html>
